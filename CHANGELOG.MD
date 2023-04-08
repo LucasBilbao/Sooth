@@ -1,3 +1,9 @@
+## 08/04/2023
+
+### Add
+
+- Implement styling to navigation
+
 ## 05/04/2023
 
 ### Add
