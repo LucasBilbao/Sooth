@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Proxima Nova;
+  src: url(../fonts/Proxima\ Nova\ Font.otf);
+}
+@font-face {
+  font-family: Somatic-Rounded;
+  src: url(../fonts/Somatic-Rounded.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Proxima Nova;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.center {
+  width: 87.6%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .shipping {
+  background: #a67744;
+}
+header .shipping .center h2 {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.3;
+  color: white;
+}
+header .center section.nav {
+  margin-top: 41px;
+}
+header .center section.nav > ul {
+  margin-top: 13px;
+}
+header .center section.nav > ul li + li {
+  margin-left: 47px;
+}
+header .center section.nav > ul li a {
+  font-size: 0.75rem;
+  line-height: 1.33;
+  font-weight: bold;
+  word-spacing: 50px;
+}
+header .center section.nav > ul li a.search {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: url(../images/search-icon.png) no-repeat center center;
+  overflow: hidden;
+  text-indent: -999999px;
+}
+header .center section.nav ul,
+header .center section.nav ul li {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+}
+header .center section.nav h1 {
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 30%;
+}
+header .center section.nav h1 a {
+  font-family: Somatic-Rounded;
+  text-transform: uppercase;
+  font-weight: normal;
+  word-spacing: 50px;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #354e57;
+}
+header .center section.nav a {
+  color: #293d45;
+}
+header .center section.nav > nav ul {
+  display: block;
+  margin: 22px auto 0 auto;
+}
+header .center section.nav > nav ul li + li {
+  margin-left: 64px;
+}
+header .center section.nav > nav ul li a {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+/* Temp styles */
+header {
+  background: #dfe2e7;
+}
+
+main {
+  background: #ffc;
+}
+
+footer {
+  background: pink;
+}/*# sourceMappingURL=styles.css.map */
